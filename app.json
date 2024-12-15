@@ -1,18 +1,31 @@
 {
-  "name": "TDX",
-  "description": "whatsapp bot by drex",
-  "repository": "https://github.com/drexmose/dx",
-  "logo": "https://telegra.ph/file/e4ec68215314010a0f1f7.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "name": "HERM",
+  "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "dreaded",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "whatsapp-sticker-bot",
+    "whatsapp-botto",
+    "baileys",
+    "baileys-md",
+    "md-bot"
+  ],
+  "repository": "https://github.com/drexmose/herm.git",
+  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+  "success_url": "/",
   "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     },
     {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ]
 }
